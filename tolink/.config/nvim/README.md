@@ -1,6 +1,6 @@
 # Neovim config
 
-![image](https://github.com/voitaraujo/nvim-config/assets/36885540/5256e2b9-a412-495d-b4ff-c1f70d34168b)
+<img width="1440" alt="SCR" src="https://github.com/voitaraujo/dotfolder/assets/36885540/5c3b8fe7-3a44-4a29-b32e-a36c594815ae">
 
 
 ## Installation
