@@ -1,0 +1,4 @@
+./link/.zsh:~/.zsh
+./link/nvim:~/.config/nvim
+./link/.zshrc:~/.zshrc
+./link/starship.toml:~/.config/starship.toml

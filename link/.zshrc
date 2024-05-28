@@ -18,6 +18,10 @@ export EDITOR='nvim'
 eval "$(starship init zsh)"
 
 alias ls='colorls'
+alias vim='nvim'
+alias clear='clear && fortune | cowsay'
+
+fortune | cowsay
 
 # bun completions
 [ -s "$HOME/.bun/_bun" ] && source "/Users/ayamatsu/.bun/_bun"
