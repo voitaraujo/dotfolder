@@ -1,7 +1,7 @@
 # DOTFILES
 
 ## Disclaimer
-The files inside the "/link" folder and the program inside "/linker" were tailored for my personal use, tested only on my systems(MacOS and whatever linux distro I'm using rn), feel free to copy some of these but I can't ensure they'll work on your system!!
+The files inside the "/link" folder and the program inside "/linker" were tailored for my personal use, tested only on my systems(MacOS and whatever linux distro I'm using currently), feel free to copy some of these but I can't ensure they'll work on your system!!
 
 ## Setup
 
@@ -41,3 +41,18 @@ On success you'll see where each file/folder ended being liked to like this:
 On error, the program will tell you what could have gone wrong:
 
 ![](/examples/erros%20example.png)
+
+## Tweak the linker
+
+The program is simple and made using Zig, on a nutshell it will read the contents of the link-map.txt, do some validations and then link the paths.
+
+Edit whatever you need on it and then run using the `dev` flag
+
+```bash
+# at: /dotfiles/linker/
+zig run src/main.zig -- dev
+```
+
+> if you run it from the project root(/dotfiles), you don't have to use the dev flag since its only purpouse it to set the cwd one level down.
+
+The build output is located and /linker/zig-out/bin/ and you can replace the "dotfolder" file at the project root with it.
