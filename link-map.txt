@@ -1,5 +1,6 @@
 ./link/.zsh:~/.zsh
 ./link/nvim:~/.config/nvim
 ./link/waybar:~/.config/waybar
+./link/fuzzel/fuzzel.ini:~/.config/fuzzel/fuzzel.ini
 ./link/.zshrc:~/.zshrc
 ./link/starship.toml:~/.config/starship.toml
