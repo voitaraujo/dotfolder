@@ -25,8 +25,13 @@ fortune | cowsay
 
 # bun completions
 [ -s "$HOME/.bun/_bun" ] && source "/Users/ayamatsu/.bun/_bun"
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+include () {
+    [[ -f "$1" ]] && source "$1"
+}
+
+include ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+include ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

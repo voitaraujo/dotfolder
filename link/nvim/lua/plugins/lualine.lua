@@ -5,7 +5,7 @@ return {
 		config = function()
 			require("lualine").setup({
 				options = {
-					theme = "poimandres",
+					theme = "vesper",
 					globalstatus = true,
 				},
 				sections = {
