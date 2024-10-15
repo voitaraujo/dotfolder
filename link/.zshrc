@@ -12,6 +12,7 @@ export PATH="/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
 export PATH="/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.zig:$PATH"
+export PATH="/usr/local/share/dotnet/:$PATH"
 
 export EDITOR='nvim'
 
@@ -19,7 +20,7 @@ eval "$(starship init zsh)"
 
 alias ls='colorls'
 alias vim='nvim'
-alias clear='clear && fortune | cowsay'
+# alias clear='clear && fortune | cowsay'
 
 fortune | cowsay
 

@@ -1,7 +1,9 @@
 ./link/.zsh:~/.zsh
+./link/.tmux:~/.tmux
 ./link/nvim:~/.config/nvim
 ./link/waybar:~/.config/waybar
 ./link/fuzzel:~/.config/fuzzel
 ./link/hypr:~/.config/hypr
 ./link/.zshrc:~/.zshrc
+./link/.tmux.conf:~/.tmux.conf
 ./link/starship.toml:~/.config/starship.toml
