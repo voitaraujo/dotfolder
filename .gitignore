@@ -1,3 +1,4 @@
-.DS_Store
+**/.DS_Store
 linker/zig-cache
 linker/zig-out
+**/.vscode

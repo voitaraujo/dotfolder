@@ -16,9 +16,9 @@ Eg.:
 ./link/.zsh:~/.zsh          #file
 ```
 
-- the "link" folder is just a suggestion, you can rename the folder or use more than one, they just have to be properly writen at the link-map.txt
+- the "link" folder is just a suggestion, you can rename the folder or use more than one, they just have to be properly written at the link-map.txt
 
-Also, notice that the `origin` path **should** be relative to the working diretory of this project while the `target` path **have** to be an absolute path starting from the user home path ("~/").
+Also, notice that the `origin` path **should** be relative to the working directory of this project while the `target` path **have** to be an absolute path starting from the user home path ("~/").
 
 > check the functions **getTargetPath** and **getOriginPath** at `linker/src/main.zig` to know why.
 
@@ -53,6 +53,6 @@ Edit whatever you need on it and then run using the `dev` flag
 zig run src/main.zig -- dev
 ```
 
-> if you run it from the project root(/dotfiles), you don't have to use the dev flag since its only purpouse it to set the cwd one level down.
+> if you run it from the project root(/dotfiles), you don't have to use the dev flag since its only purpose it to set the cwd one level down.
 
 The build output is located and /linker/zig-out/bin/ and you can replace the "dotfolder" file at the project root with it.
